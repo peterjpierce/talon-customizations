@@ -98,7 +98,7 @@ darker container: "docker container "
 darker build: "docker build "
 darker image: "docker image "
 darker run: "docker run "
-darker compose: "docker-compose "
+darker compose: "docker compose "
 start darker:
     insert("sudo service docker start")
     key("enter")
