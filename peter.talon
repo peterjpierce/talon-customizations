@@ -1,3 +1,10 @@
+from talon import actions
+
+
+settings():
+    # minimum silence time (in seconds) before speech is cut off, default 0.3
+    speech.timeout = 0.2
+
 hammer: "vim "
 sidebar: ",d,r"
 army: "ppierce@nrtc.coop"
@@ -7,15 +14,15 @@ goodbye: key("ctrl-d")
 (temple|tempo): "/tmp/"
 make directory|make dear: "mkdir "
 
-go aws:
+go workbench:
     insert("ssh wka")
     key("enter")
 
-go nrtc:
+get nrtc:
     insert("cd ~/git/nrtc")
     key("enter")
 
-go peter:
+get peter:
     insert("cd ~/git/peter")
     key("enter")
 
@@ -75,8 +82,14 @@ moonshot:
     insert("morning_check")
     key("enter")
 
+
+sunshine: "ssh "
+load keys:
+    insert("ssk")
+    key("enter")
+
 goose: "git "
-gas: "git/"
+grizzle: "git/"
 
 nordic: "nrtc"
 
