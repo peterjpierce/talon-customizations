@@ -102,3 +102,5 @@ darker compose: "docker compose "
 start darker:
     insert("sudo service docker start")
     key("enter")
+
+grip: "egrep "
