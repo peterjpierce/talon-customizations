@@ -13,6 +13,7 @@ chad: "cd "
 goodbye: key("ctrl-d")
 (temple|tempo): "/tmp/"
 make directory|make dear: "mkdir "
+remove directory|remove dear: "rmdir "
 
 go workbench:
     insert("ssh wka")
@@ -87,6 +88,9 @@ sunshine: "ssh "
 load keys:
     insert("ssk")
     key("enter")
+remove keys:
+    insert("ssh-add -D")
+    key("enter")
 
 goose: "git "
 grizzle: "git/"
@@ -104,3 +108,7 @@ start darker:
     key("enter")
 
 grip: "egrep "
+
+launch code:
+    insert("code .")
+    key("enter")
