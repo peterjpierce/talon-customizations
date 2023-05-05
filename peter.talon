@@ -109,6 +109,29 @@ start darker:
 
 grip: "egrep "
 
+virtual on:
+    insert("v.on")
+    key("enter")
+virtual off:
+    insert("v.off")
+    key("enter")
+virtual freeze:
+    insert("v.pf")
+    key("enter")
+virtual list:
+    insert("v.ls")
+    key("enter")
+virtual make: "v.mk "
+
+list opt:
+    insert("ls /opt/*")
+    key("enter")
+
+export secrets:
+    insert("export $(./_setup/getsecrets.py)")
+    key("enter")
+
+
 launch code:
     insert("code .")
     key("enter")
