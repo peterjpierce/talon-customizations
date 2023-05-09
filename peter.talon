@@ -38,11 +38,11 @@ go local:
 go et se:
     insert("cd ~/etc")
     key("enter")
-    
+
 go back:
     insert("cd -")
     key("enter")
-    
+
 go one: insert("g, aa101 ")
 go two: insert("g, aa201 ")
 go three: insert("g, aa301 ")
@@ -51,23 +51,23 @@ go four: insert("g, aa401 ")
 up one:
     insert("cd ..")
     key("enter")
-    
+
 up two:
     insert("cd ../..")
     key("enter")
-    
+
 fetch upstream:
     insert("gfu")
     key("enter")
-    
+
 fetch both:
     insert("gfuo")
     key("enter")
-    
-push dev: "git push origin dev:"
-sue do: "sudo " 
 
-tomato: 
+push dev: "git push origin dev:"
+sue do: "sudo "
+
+tomato:
     insert("tma")
     key("enter")
 
@@ -131,7 +131,18 @@ export secrets:
     insert("export $(./_setup/getsecrets.py)")
     key("enter")
 
-
 launch code:
     insert("code .")
     key("enter")
+
+# mouse
+cake:
+    mouse_click(0)
+    user.grid_close()
+rake:
+    mouse_click(1)
+    user.grid_close()
+lean | line:
+    user.mouse_drag(1)
+    user.grid_close()
+hoist: user.mouse_drag_end()
