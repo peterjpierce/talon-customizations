@@ -146,3 +146,7 @@ lean | line:
     user.mouse_drag(1)
     user.grid_close()
 hoist: user.mouse_drag_end()
+
+upgrade system:
+    insert('sudo apt update && sudo apt upgrade && sudo apt auto-remove')
+    key('enter')

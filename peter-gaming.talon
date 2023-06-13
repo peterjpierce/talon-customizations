@@ -1,0 +1,6 @@
+green: key(ctrl-tab)
+green one: key(ctrl-1)
+green two: key(ctrl-2)
+green three: key(ctrl-3)
+green for|green four: key(ctrl-4)
+green five: key(ctrl-5)
