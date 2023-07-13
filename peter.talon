@@ -132,7 +132,7 @@ export secrets:
     key("enter")
 
 start dev server:
-    insert("./_setup/devserver.py)")
+    insert("./_setup/devserver.py")
     key("enter")
 
 launch code:
