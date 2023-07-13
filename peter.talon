@@ -27,15 +27,15 @@ get peter:
     insert("cd ~/git/peter")
     key("enter")
 
-go log:
+go to log:
     insert("cd /var/log")
     key("enter")
 
-go local:
+go to local:
     insert("cd /var/local/nrtc")
     key("enter")
 
-go et se:
+go to etty|go to easy:
     insert("cd ~/etc")
     key("enter")
 
@@ -43,10 +43,10 @@ go back:
     insert("cd -")
     key("enter")
 
-go one: insert("g, aa101 ")
-go two: insert("g, aa201 ")
-go three: insert("g, aa301 ")
-go four: insert("g, aa401 ")
+go to one: insert("g, aa101 ")
+go to two: insert("g, aa201 ")
+go to three: insert("g, aa301 ")
+go to four: insert("g, aa401 ")
 
 up one:
     insert("cd ..")
@@ -131,9 +131,16 @@ export secrets:
     insert("export $(./_setup/getsecrets.py)")
     key("enter")
 
+start dev server:
+    insert("./_setup/devserver.py)")
+    key("enter")
+
 launch code:
     insert("code .")
     key("enter")
+
+search history:
+    insert('history | egrep ')
 
 # mouse
 cake:
