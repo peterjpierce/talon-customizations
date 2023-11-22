@@ -96,6 +96,7 @@ goose: "git "
 grizzle: "git/"
 
 nordic: "nrtc"
+post grass: "PostgreSQL"
 
 darker: "docker "
 darker container: "docker container "
