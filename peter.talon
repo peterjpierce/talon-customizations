@@ -97,6 +97,7 @@ grizzle: "git/"
 
 nordic: "nrtc"
 post grass: "PostgreSQL"
+net sweet: "Netsuite"
 
 darker: "docker "
 darker container: "docker container "
