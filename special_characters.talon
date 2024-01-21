@@ -1,19 +1,18 @@
 from talon import actions
 
-
-span air:
+air con a cento | span air:
     insert("á")
 
-span each:
+each con a cento | span each:
     insert("é")
 
-span sit:
+sit con a cento | span sit:
     insert("í")
 
-span odd:
+add con a cento | span odd:
     insert("ó")
 
-span urge:
+urge con a cento | span urge:
     insert("ú")
 
 darted urge:
