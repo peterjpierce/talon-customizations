@@ -65,6 +65,7 @@ fetch both:
     key("enter")
 
 push dev: "git push origin dev:"
+get ad patch: "git add -p "
 sue do: "sudo "
 
 tomato:
