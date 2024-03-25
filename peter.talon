@@ -7,21 +7,12 @@ settings():
 
 hammer: "vim "
 sidebar: ",d,r"
-army: "ppierce@nrtc.coop"
 
 chad: "cd "
 goodbye: key("ctrl-d")
 (temple|tempo): "/tmp/"
 make directory|make dear: "mkdir "
 remove directory|remove dear: "rmdir "
-
-go workbench:
-    insert("ssh wka")
-    key("enter")
-
-get nrtc:
-    insert("cd ~/git/nrtc")
-    key("enter")
 
 get peter:
     insert("cd ~/git/peter")
@@ -31,10 +22,6 @@ go to log:
     insert("cd /var/log")
     key("enter")
 
-go to local:
-    insert("cd /var/local/nrtc")
-    key("enter")
-
 go to etty|go to easy:
     insert("cd ~/etc")
     key("enter")
@@ -42,11 +29,6 @@ go to etty|go to easy:
 go back:
     insert("cd -")
     key("enter")
-
-go to one: insert("g, aa101 ")
-go to two: insert("g, aa201 ")
-go to three: insert("g, aa301 ")
-go to four: insert("g, aa401 ")
 
 up one:
     insert("cd ..")
@@ -80,11 +62,6 @@ use mut:
     insert("mutt")
     key("enter")
 
-moonshot:
-    insert("morning_check")
-    key("enter")
-
-
 sunshine: "ssh "
 load keys:
     insert("ssk")
@@ -96,9 +73,7 @@ remove keys:
 goose: "git "
 grizzle: "git/"
 
-nordic: "nrtc"
 post grass: "PostgreSQL"
-net sweet: "Netsuite"
 
 darker: "docker "
 darker container: "docker container "
