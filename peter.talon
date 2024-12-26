@@ -1,6 +1,3 @@
-from talon import actions
-
-
 settings():
     # minimum silence time (in seconds) before speech is cut off, default 0.3
     speech.timeout = 0.2
@@ -88,10 +85,10 @@ start darker:
 grip: "egrep "
 
 virtual on:
-    insert("v.on")
+    "[[ -d env ]] && . env/bin/activate || . .venv/bin/activate"
     key("enter")
 virtual off:
-    insert("v.off")
+    "deactivate"
     key("enter")
 virtual freeze:
     insert("v.pf")

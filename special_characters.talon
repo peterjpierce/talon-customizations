@@ -1,5 +1,3 @@
-from talon import actions
-
 air con a cento | span air:
     insert("á")
 
