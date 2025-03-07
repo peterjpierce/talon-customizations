@@ -2,6 +2,8 @@ settings():
     # minimum silence time (in seconds) before speech is cut off, default 0.3
     speech.timeout = 0.2
 
+tag(): user.unprefixed_numbers
+
 hammer: "vim "
 sidebar: ",d,r"
 
@@ -110,6 +112,10 @@ start dev server:
     insert("./_setup/devserver.py")
     key("enter")
 
+readline:
+    insert("set -o vi")
+    key("enter")
+
 launch code:
     insert("code .")
     key("enter")
@@ -123,6 +129,9 @@ cake:
     user.grid_close()
 rake:
     mouse_click(1)
+    user.grid_close()
+dean:
+    user.mouse_drag(0)
     user.grid_close()
 lean | line:
     user.mouse_drag(1)
