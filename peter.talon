@@ -6,6 +6,9 @@ tag(): user.unprefixed_numbers
 
 hammer: "vim "
 sidebar: ",d,r"
+court: "'"
+double court: "\""
+poster: "postgres"
 
 chad: "cd "
 goodbye: key("ctrl-d")
