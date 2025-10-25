@@ -16,6 +16,9 @@ goodbye: key("ctrl-d")
 make directory|make dear: "mkdir "
 remove directory|remove dear: "rmdir "
 
+make docs: "mkdocs "
+heave: "uv "
+
 get peter:
     insert("cd ~/git/peter")
     key("enter")
