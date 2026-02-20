@@ -9,6 +9,8 @@ sidebar: ",d,r"
 court: "'"
 double court: "\""
 poster: "postgres"
+(cold|cloud|claude): "claude "
+proper clod: "Claude Code"
 
 chad: "cd "
 goodbye: key("ctrl-d")
